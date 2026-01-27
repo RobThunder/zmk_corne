@@ -41,7 +41,7 @@ layers:
   - {t: RET, h: Utility}
   - {t: SPACE, h: Symbols, s: _}
   - {t: RET, h: Numbers}
-  - {t: BACKSPACE, h: Symbols}
+  - {t: BACKSPACE, h: Navigate}
   - {t: RIGHT SHIFT, h: sticky}
   Navigate:
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Symbols:
   - {t: ▽, type: trans}
