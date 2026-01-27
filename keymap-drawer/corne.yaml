@@ -50,11 +50,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&prev_word'
+  - UP ARROW
+  - '&next_word'
   - '&mkp LCLK'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - LGUI
@@ -62,11 +62,11 @@ layers:
   - LEFT SHIFT
   - LEFT CONTROL
   - {t: ▽, type: trans}
-  - APPLICATION
+  - HOME
   - LEFT
   - DOWN ARROW
-  - UP ARROW
   - RIGHT
+  - PAGE UP
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,11 +74,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - HOME
-  - PAGE DOWN
-  - PG UP
   - END
+  - '&prev_word_sel'
+  - PAGE DOWN
+  - '&next_word_sel'
+  - PAGE DOWN
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
