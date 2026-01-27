@@ -124,8 +124,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-Default">
-<text x="0" y="28" class="label" id="Default">Default:</text>
+<g transform="translate(30, 0)" class="layer-default">
+<text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -289,27 +289,27 @@ path.combo {
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RET</text>
-<a href="#Utilities">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">Utilities</tspan></text>
+<a href="#kb_utils">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">kb_utils</tspan></text>
 </a></g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<a href="#Navigation">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 70%">Navigation</tspan></text>
+<a href="#nav">
+<text x="0" y="38" class="key hold layer-activator">nav</text>
 </a><text x="0" y="-38" class="key shifted">_</text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">RET</text>
-<a href="#Numbers">
-<text x="0" y="38" class="key hold layer-activator">Numbers</text>
+<a href="#num">
+<text x="0" y="38" class="key hold layer-activator">num</text>
 </a></g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
-<a href="#Symbols">
-<text x="0" y="24" class="key hold layer-activator">Symbols</text>
+<a href="#symb">
+<text x="0" y="24" class="key hold layer-activator">symb</text>
 </a></g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -382,8 +382,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 331)" class="layer-Navigation">
-<text x="0" y="28" class="label" id="Navigation">Navigation:</text>
+<g transform="translate(30, 331)" class="layer-nav">
+<text x="0" y="28" class="label" id="nav">nav:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -582,8 +582,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 661)" class="layer-Symbols">
-<text x="0" y="28" class="label" id="Symbols">Symbols:</text>
+<g transform="translate(30, 661)" class="layer-symb">
+<text x="0" y="28" class="label" id="symb">symb:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -758,8 +758,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 992)" class="layer-Numbers">
-<text x="0" y="28" class="label" id="Numbers">Numbers:</text>
+<g transform="translate(30, 992)" class="layer-num">
+<text x="0" y="28" class="label" id="num">num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -932,8 +932,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1323)" class="layer-Utilities">
-<text x="0" y="28" class="label" id="Utilities">Utilities:</text>
+<g transform="translate(30, 1323)" class="layer-kb_utils">
+<text x="0" y="28" class="label" id="kb_utils">kb_utils:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
