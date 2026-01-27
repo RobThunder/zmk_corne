@@ -38,12 +38,12 @@ layers:
   - /
   - RIGHT ALT
   - LCTRL
-  - {t: RET, h: Utilities}
-  - {t: SPACE, h: Navigation, s: _}
+  - {t: RET, h: Symbols}
+  - {t: SPACE, h: Navigate, s: _}
   - {t: RET, h: Numbers}
-  - {t: BACKSPACE, h: Symbols}
+  - {t: BACKSPACE, h: Utility}
   - {t: RIGHT SHIFT, h: sticky}
-  Navigation:
+  Navigate:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -95,8 +95,8 @@ layers:
   - +
   - $
   - '`'
-  - Sft+%
-  - Sft+3
+  - '%'
+  - '#'
   - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,15 +119,15 @@ layers:
   - '*'
   - _
   - '@'
-  - Sft+\
-  - '#'
-  - Sft+#
-  - {t: ▽, type: trans}
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Numbers:
   - ESC
@@ -153,18 +153,18 @@ layers:
   - '8'
   - '9'
   - '0'
+  - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - Sft+4
-  - Sft+5
-  - Sft+6
-  - Sft+7
-  - Sft+8
-  - Sft+9
-  - Sft+0
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - _
@@ -172,7 +172,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Utilities:
+  Utility:
   - '&bootloader'
   - ''
   - ''
@@ -180,9 +180,9 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - ''
+  - '&mmv MOVE_UP'
+  - ''
   - ''
   - '&studio_unlock'
   - ''
@@ -191,10 +191,10 @@ layers:
   - PLAY PAUSE
   - NEXT
   - ''
-  - ''
+  - '&msc SCRL_UP'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_RIGHT'
   - ''
   - BT CLR
@@ -203,18 +203,18 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - ''
-  - '&mkp MB4'
   - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
+  - '&mkp MB4'
   - '&mkp MB5'
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
+  - ''
   - ''
   - '&mkp MB1'
-  - '&mkp MB2'
-  - ''
+  - {t: '&mkp MB2', type: held}
+  - '&mkp MB3'
 combos:
 - p: [17, 18]
   k: '&caps_word'
