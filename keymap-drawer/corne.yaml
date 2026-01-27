@@ -38,12 +38,12 @@ layers:
   - /
   - RIGHT ALT
   - LCTRL
-  - {t: RET, h: UTIL}
-  - {t: SPACE, h: NAV, s: _}
-  - {t: RET, h: NUM}
-  - {t: BACKSPACE, h: SYM}
+  - {t: RET, h: Utilities}
+  - {t: SPACE, h: Navigation, s: _}
+  - {t: RET, h: Numbers}
+  - {t: BACKSPACE, h: Symbols}
   - {t: RIGHT SHIFT, h: sticky}
-  NAV:
+  Navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYM:
+  Symbols:
   - {t: ▽, type: trans}
   - '!'
   - '?'
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  NUM:
+  Numbers:
   - ESC
   - F1
   - F2
@@ -172,7 +172,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  UTIL:
+  Utilities:
   - '&bootloader'
   - ''
   - ''
