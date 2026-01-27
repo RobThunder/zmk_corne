@@ -40,8 +40,8 @@ layers:
   - LCTRL
   - {t: RET, h: Utility}
   - {t: SPACE, h: Symbols, s: _}
-  - {t: RET, h: Navigate}
-  - {t: BACKSPACE, h: Utility}
+  - {t: RET, h: Numbers}
+  - {t: BACKSPACE, h: Symbols}
   - {t: RIGHT SHIFT, h: sticky}
   Navigate:
   - {t: ▽, type: trans}
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbols:
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Utility:
