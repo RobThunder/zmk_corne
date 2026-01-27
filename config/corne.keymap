@@ -263,9 +263,9 @@
         num_layer {
             display-name = "Numbers";
             bindings = <
-&kp ESC  &kp F1           &kp F2       &kp F3      &kp F4               &kp F5        &kp F6      &kp F7               &kp F8        &kp F9                &kp F10                &kp F11
-&trans   &kp N1           &kp N2       &kp N3      &bhm LCTRL NUMBER_4  &kp N5        &kp N6      &bhm RCTRL NUMBER_7  &kp N8        &kp N9                &kp N0                 &kp F12
-&trans   &kp EXCLAMATION  &kp AT_SIGN  &kp POUND   &kp DOLLAR           &kp PERCENT   &kp CARET   &kp AMPERSAND        &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp ESC  &kp F1    &kp F2   &kp F3    &kp F4               &kp F5    &kp F6    &kp F7               &kp F8   &kp F9    &kp F10   &kp F11
+&trans   &kp N1    &kp N2   &kp N3    &bhm LCTRL NUMBER_4  &kp N5    &kp N6    &bhm RCTRL NUMBER_7  &kp N8   &kp N9    &kp N0    &kp F12
+&trans   &kp F13   &kp F14  &kp F15   &kp F16              &kp F17   &kp F18   &kp F19              &kp F20  &kp F21   &kp F22   &kp F23
                                        &trans      &kp UNDER            &trans        &trans      &trans               &trans
             >;
         };
