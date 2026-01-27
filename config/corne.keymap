@@ -111,6 +111,70 @@
     };
 
     macros {
+        prev_word: prev_word {
+            compatible = "zmk,behavior-macro";
+            label = "Previous Word";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RCTRL>,
+                <&macro_tap>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kp RCTRL>;
+
+            tap-ms = <10>;
+            wait-ms = <10>;
+        };
+
+        next_word: next_word {
+            compatible = "zmk,behavior-macro";
+            label = "Next Word";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RCTRL>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp RCTRL>;
+
+            tap-ms = <10>;
+            wait-ms = <10>;
+        };
+
+        prev_word_sel: prev_word_sel {
+            compatible = "zmk,behavior-macro";
+            label = "Previous Word Select";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RCTRL &kp RSHFT>,
+                <&macro_tap>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kp RCTRL &kp RSHFT>;
+
+            tap-ms = <10>;
+            wait-ms = <10>;
+        };
+
+        next_word_sel: next_word_sel {
+            compatible = "zmk,behavior-macro";
+            label = "Next Word Select";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RCTRL &kp RSHFT>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp RCTRL &kp RSHFT>;
+
+            tap-ms = <10>;
+            wait-ms = <10>;
+        };
+
         arrow_func: arrow_func {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -179,10 +243,10 @@
         nav_layer {
             display-name = "Navigation";
             bindings = <
-&trans  &trans    &trans    &trans          &trans            &trans    &mkp LCLK          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp RCLK
-&trans  &kp LGUI  &kp LALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans    &kp K_APPLICATION  &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp K_CMENU
-&trans  &trans    &trans    &trans          &trans            &trans    &mkp MB4           &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &mkp MB5
-                            &trans          &trans            &trans    &trans             &trans          &trans
+&trans  &trans    &trans    &trans          &trans            &trans    &trans     &prev_word       &kp UP_ARROW    &next_word       &mkp LCLK       &mkp RCLK
+&trans  &kp LGUI  &kp LALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans    &kp HOME   &kp LEFT         &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_UP     &kp K_CMENU
+&trans  &trans    &trans    &trans          &trans            &trans    &kp END    &prev_word_sel   &kp PAGE_DOWN   &next_word_sel   &kp PAGE_DOWN   &mkp MB5
+                            &trans          &trans            &trans    &trans     &trans      &trans
             >;
         };
 
