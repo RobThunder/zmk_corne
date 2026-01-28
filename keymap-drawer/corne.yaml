@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - DEL
+  - td num layer
   - {t: LSHFT, h: sticky}
   - {t: A, h: LMETA}
   - {t: S, h: LEFT ALT}
