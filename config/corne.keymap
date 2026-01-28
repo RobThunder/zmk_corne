@@ -219,7 +219,7 @@
         * Hold: NUM layer
         * Double Tap: NUM_WORD layer
         * Triple Tap: NUM layer toggled
-        */
+        
         td_num_layer: td_num_layer {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -230,6 +230,7 @@
                 bindings = <&lt NUM DEL>, <&tog NUM>;
             #endif
         };
+        */
     };
 
     keymap {
