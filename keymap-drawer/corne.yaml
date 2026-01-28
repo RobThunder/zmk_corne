@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - DELETE
+  - td num layer
   - {t: LSHFT, h: sticky}
   - {t: A, h: LMETA}
   - {t: S, h: LEFT ALT}
@@ -36,11 +36,11 @@ layers:
   - ','
   - .
   - /
-  - RIGHT ALT
+  - \
   - LCTRL
   - {t: RET, h: Utility}
-  - {t: SPACE, h: Symbols, s: _}
-  - {t: RET, h: Numbers}
+  - {t: SPACE, h: Numbers, s: _}
+  - {t: RET, h: Symbols}
   - {t: BACKSPACE, h: Navigate}
   - {t: RIGHT SHIFT, h: sticky}
   Navigate:
@@ -50,7 +50,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
   - '&prev_word'
   - UP ARROW
   - '&next_word'
@@ -62,7 +62,7 @@ layers:
   - LEFT SHIFT
   - LEFT CONTROL
   - {t: ▽, type: trans}
-  - HOME
+  - END
   - LEFT
   - DOWN ARROW
   - RIGHT
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - END
+  - {t: ▽, type: trans}
   - '&prev_word_sel'
   - PAGE DOWN
   - '&next_word_sel'
@@ -87,46 +87,46 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   Symbols:
-  - {t: ▽, type: trans}
-  - '!'
-  - '?'
-  - '{'
-  - '}'
-  - +
-  - $
   - '`'
-  - '%'
+  - '!'
+  - '@'
   - '#'
+  - $
+  - '%'
   - ^
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '&arrow_func_tap'
-  - {t: (, h: LEFT SHIFT}
-  - {t: ), h: LCTRL}
+  - '&'
+  - '*'
   - '-'
   - '='
-  - {t: '''', h: RCTRL}
-  - {t: '&', h: RIGHT SHIFT}
-  - '"'
-  - Sft+;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
-  - /
+  - <
+  - {t: '{', h: LEFT SHIFT}
+  - {t: (, h: LCTRL}
   - '['
   - ']'
-  - '*'
-  - _
-  - '@'
-  - '|'
+  - {t: ), h: RCTRL}
+  - {t: '}', h: RIGHT SHIFT}
+  - '>'
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Numbers:
@@ -168,8 +168,8 @@ layers:
   - F23
   - {t: ▽, type: trans}
   - _
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Utility:
@@ -231,20 +231,11 @@ combos:
 - p: [5, 6]
   k: CAPSLOCK
   l: [Default]
-- p: [10, 9]
-  k: DELETE
-  l: [Default]
 - p: [7, 8]
   k: _
   l: [Default]
 - p: [4, 3]
   k: '-'
-  l: [Default]
-- p: [2, 3, 4]
-  k: '&emdsh'
-  l: [Default]
-- p: [1, 4, 7, 10]
-  k: F19
   l: [Default]
 - p: [7, 19]
   k: ''''
