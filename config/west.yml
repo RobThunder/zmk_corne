@@ -19,9 +19,10 @@ manifest:
       revision: v0.3.0 # pinned to a specific commit
     - name: zmk-helpers
       remote: urob
-      revision: v0.3 # Should match ZMK release.
-    - name: zmk-auto-layer
-      remote: urob
-      revision: v0.3 # Should match ZMK release.
+      revision: main # Should match ZMK release.
+      # revision: v0.3 # Should match ZMK release.
+    # - name: zmk-auto-layer
+    #   remote: urob
+    #   revision: v0.3 # Should match ZMK release.
   self:
     path: config
