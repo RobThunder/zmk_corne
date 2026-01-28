@@ -13,6 +13,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <behaviors/num_word.dtsi>
 
 /*
  * Sticky Key Settings
@@ -211,6 +212,13 @@
             mods = <(MOD_RSFT)>;
         };
 
+        nav_word: nav_word {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <1>;
+            continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
+            ignore-modifiers;
+        };
+
         /*
         * Tap dancing num layer
         *
@@ -219,18 +227,13 @@
         * Hold: NUM layer
         * Double Tap: NUM_WORD layer
         * Triple Tap: NUM layer toggled
-        
+        */
         td_num_layer: td_num_layer {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            #ifdef HAS_UROB
-                bindings = <&lt NUM DEL>, <&num_word>;
-            #else
-                bindings = <&lt NUM DEL>, <&tog NUM>;
-            #endif
+            bindings = <&lt NUM DEL>, <&num_word>;
         };
-        */
     };
 
     keymap {
@@ -245,7 +248,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q         &kp W            &kp E              &kp R         &kp T        &kp Y      &kp U            &kp I               &kp O            &kp P                 &kp DEL
+&kp TAB    &kp Q         &kp W            &kp E              &kp R         &kp T        &kp Y      &kp U            &kp I               &kp O            &kp P                 &kp td_num_layer
 &sk LSHFT  &bhm LMETA A  &bhm LEFT_ALT S  &bhm LEFT_SHIFT D  &bhm LCTRL F  &kp G        &kp H      &bhm RCTRL J     &bhm RIGHT_SHIFT K  &bhm LEFT_ALT L  &bhm LMETA SEMICOLON  &kp SQT
 &kp LCTRL  &kp Z         &kp X            &kp C              &kp V         &kp B        &kp N      &kp M            &kp COMMA           &kp DOT          &kp FSLH              &kp BACKSLASH
                                           &kp LCTRL          &lt 4 RET     &underspace  &lt 2 RET  &lt 1 BACKSPACE  &sk RIGHT_SHIFT
