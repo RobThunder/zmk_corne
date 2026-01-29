@@ -45,11 +45,11 @@ layers:
   - '&td_num_layer'
   Navigate:
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - f10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
   - '&prev_word'
   - UP ARROW
@@ -57,11 +57,11 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - LGUI
+  - LALT
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - {t: ▽, type: trans}
   - END
   - LEFT
   - DOWN ARROW
@@ -69,11 +69,11 @@ layers:
   - PAGE UP
   - CMENU
   - {t: ▽, type: trans}
-  - F11
-  - F12
-  - F13
-  - f14
-  - F15
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&prev_word_sel'
   - PAGE DOWN
