@@ -63,7 +63,7 @@
         };
 
         combo_num_word {
-            bindings = <&num_word>;
+            bindings = <&num_word 3>;
             key-positions = <5 6>;
             layers = <0>;
         };
