@@ -62,15 +62,9 @@
             layers = <0>;
         };
 
-        combo_CAPS_LOCK {
-            bindings = <&kp CAPSLOCK>;
+        combo_num_word {
+            bindings = <&num_word>;
             key-positions = <5 6>;
-            layers = <0>;
-        };
-
-        combo_Delete {
-            bindings = <&kp DELETE>;
-            key-positions = <10 9>;
             layers = <0>;
         };
 
@@ -83,18 +77,6 @@
         combo_dash {
             bindings = <&kp MINUS>;
             key-positions = <4 3>;
-            layers = <0>;
-        };
-
-        combo_em-dash {
-            bindings = <&emdsh>;
-            key-positions = <2 3 4>;
-            layers = <0>;
-        };
-
-        combo_f19 {
-            bindings = <&kp F19>;
-            key-positions = <1 4 7 10>;
             layers = <0>;
         };
 
