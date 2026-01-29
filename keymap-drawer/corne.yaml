@@ -57,10 +57,10 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - {t: F1, h: LMETA}
-  - {t: F2, h: LALT}
-  - {t: F3, h: LEFT SHIFT}
-  - {t: F4, h: LCTRL}
+  - F1
+  - F2
+  - F3
+  - F4
   - F5
   - END
   - LEFT
