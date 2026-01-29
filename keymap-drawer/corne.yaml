@@ -22,8 +22,8 @@ layers:
   - H
   - {t: J, h: RCTRL}
   - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: LEFT ALT}
-  - {t: ;, h: LMETA}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RMETA}
   - ''''
   - LCTRL
   - Z
@@ -45,11 +45,11 @@ layers:
   - '&td_num_layer'
   Navigate:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - f10
   - HOME
   - '&prev_word'
   - UP ARROW
@@ -57,11 +57,11 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LEFT SHIFT
-  - LEFT CONTROL
-  - {t: ▽, type: trans}
+  - {t: F1, h: LMETA}
+  - {t: F2, h: LALT}
+  - {t: F3, h: LEFT SHIFT}
+  - {t: F4, h: LCTRL}
+  - F5
   - END
   - LEFT
   - DOWN ARROW
@@ -69,11 +69,11 @@ layers:
   - PAGE UP
   - CMENU
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F11
+  - F12
+  - F13
+  - f14
+  - F15
   - {t: ▽, type: trans}
   - '&prev_word_sel'
   - PAGE DOWN
@@ -131,47 +131,47 @@ layers:
   - {t: ▽, type: trans}
   Numbers:
   - ESC
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
-  - {t: '4', h: LCTRL}
+  - '4'
   - '5'
   - '6'
-  - {t: '7', h: RCTRL}
+  - '7'
   - '8'
   - '9'
   - '0'
-  - F12
   - {t: ▽, type: trans}
-  - F13
-  - F14
-  - F15
-  - F16
-  - F17
-  - F18
-  - F19
-  - F20
-  - F21
-  - F22
-  - F23
   - {t: ▽, type: trans}
-  - _
+  - {t: ▽, type: trans}
+  - {t: '-', h: LEFT ALT}
+  - {t: +, h: LEFT SHIFT}
+  - {t: '=', h: LCTRL}
+  - '*'
+  - ','
+  - {t: '4', h: RCTRL}
+  - {t: '5', h: RIGHT SHIFT}
+  - {t: '6', h: RIGHT ALT}
+  - '-'
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
+  - '1'
+  - '2'
+  - '3'
+  - +
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   Utility:
   - '&bootloader'
   - ''
@@ -179,7 +179,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&msc SCRL_UP'
   - ''
   - '&mmv MOVE_UP'
   - ''
@@ -191,7 +191,7 @@ layers:
   - PLAY PAUSE
   - NEXT
   - ''
-  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
@@ -203,7 +203,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - '&msc SCRL_DOWN'
+  - ''
   - '&mkp MB4'
   - '&mkp MB5'
   - ''
