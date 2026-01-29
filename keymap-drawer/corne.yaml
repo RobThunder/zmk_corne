@@ -45,11 +45,11 @@ layers:
   - '&td_num_layer'
   Navigate:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - f10
   - HOME
   - '&prev_word'
   - UP ARROW
