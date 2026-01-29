@@ -220,7 +220,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&lt NUM DEL>, <&num_word>;
+            bindings = <&lt NUM DEL>, <&num_word 3>;
         };
     };
 
@@ -240,7 +240,7 @@
 &kp TAB    &kp Q         &kp W            &kp E              &kp R         &kp T        &kp Y      &kp U            &kp I               &kp O            &kp P                 &kp DEL
 &sk LSHFT  &bhm LMETA A  &bhm LEFT_ALT S  &bhm LEFT_SHIFT D  &bhm LCTRL F  &kp G        &kp H      &bhm RCTRL J     &bhm RIGHT_SHIFT K  &bhm LEFT_ALT L  &bhm LMETA SEMICOLON  &kp SQT
 &kp LCTRL  &kp Z         &kp X            &kp C              &kp V         &kp B        &kp N      &kp M            &kp COMMA           &kp DOT          &kp FSLH              &kp BACKSLASH
-                                          &kp LCTRL          &lt 4 RET     &underspace  &lt 2 RET  &lt 1 BACKSPACE  &sk RIGHT_SHIFT
+                                          &kp LCTRL          &lt 4 RET     &underspace  &lt 2 RET  &lt 1 BACKSPACE  &td_num_layer
             >;
         };
 
