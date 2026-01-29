@@ -189,16 +189,13 @@
 
         arrow_func_tap: arrow_func_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "ARROW_FUNC_TAP";
             #binding-cells = <0>;
             bindings = <&kp GREATER_THAN>, <&arrow_func>;
         };
 
         underspace: underspace {
             compatible = "zmk,behavior-mod-morph";
-            label = "UNDERSPACE";
             bindings = <&lt 3 SPACE>, <&kp UNDER>;
-
             #binding-cells = <0>;
             mods = <(MOD_RSFT)>;
         };
