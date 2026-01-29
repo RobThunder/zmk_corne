@@ -54,8 +54,8 @@ layers:
   - '&prev_word'
   - UP ARROW
   - '&next_word'
-  - '&mkp LCLK'
-  - '&mkp RCLK'
+  - PAGE UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: F1, h: LMETA}
   - {t: F2, h: LALT}
@@ -66,7 +66,7 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - PAGE UP
+  - PAGE DOWN
   - CMENU
   - {t: ▽, type: trans}
   - F11
@@ -78,8 +78,8 @@ layers:
   - '&prev_word_sel'
   - PAGE DOWN
   - '&next_word_sel'
-  - PAGE DOWN
-  - '&mkp MB5'
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -141,13 +141,13 @@ layers:
   - '8'
   - '9'
   - '0'
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '-', h: LEFT ALT}
-  - {t: +, h: LEFT SHIFT}
-  - {t: '=', h: LCTRL}
-  - '*'
+  - {t: <, h: LEFT ALT}
+  - {t: '>', h: LEFT SHIFT}
+  - {t: (, h: LCTRL}
+  - )
   - ','
   - {t: '4', h: RCTRL}
   - {t: '5', h: RIGHT SHIFT}
@@ -155,11 +155,11 @@ layers:
   - '-'
   - '*'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F16
+  - F17
+  - F18
+  - F19
+  - F20
   - .
   - '1'
   - '2'
@@ -230,12 +230,6 @@ combos:
   l: [Default]
 - p: [5, 6]
   k: '&num_word 3'
-  l: [Default]
-- p: [7, 8]
-  k: _
-  l: [Default]
-- p: [4, 3]
-  k: '-'
   l: [Default]
 - p: [7, 19]
   k: ''''
