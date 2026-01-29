@@ -247,10 +247,10 @@
         nav_layer {
             display-name = "Navigate";
             bindings = <
-&trans  &kp F6          &kp F7          &kp F8              &kp F9         &kp f10   &kp HOME   &prev_word       &kp UP_ARROW    &next_word       &mkp LCLK       &mkp RCLK
-&trans  &bhm LMETA F1   &bhm LALT F2    &bhm LEFT_SHIFT F3  &bhm LCTRL F4  &kp F5    &kp END    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_UP     &kp K_CMENU
-&trans  &kp F11         &kp F12         &kp F13             &kp f14        &kp F15   &trans     &prev_word_sel   &kp PAGE_DOWN   &next_word_sel   &kp PAGE_DOWN   &mkp MB5
-                                        &trans              &trans         &trans    &trans     &trans           &trans
+&trans  &kp F6   &kp F7    &kp F8   &kp F9   &kp f10   &kp HOME   &prev_word       &kp UP_ARROW    &next_word       &mkp LCLK       &mkp RCLK
+&trans  &kp F1   &kp F2    &kp F3   &kp F4   &kp F5    &kp END    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_UP     &kp K_CMENU
+&trans  &kp F11  &kp F12   &kp F13  &kp f14  &kp F15   &trans     &prev_word_sel   &kp PAGE_DOWN   &next_word_sel   &kp PAGE_DOWN   &mkp MB5
+                           &trans   &trans   &trans    &trans     &trans           &trans
             >;
         };
 
