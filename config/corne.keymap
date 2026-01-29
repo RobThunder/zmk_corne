@@ -247,7 +247,7 @@
         nav_layer {
             display-name = "Navigate";
             bindings = <
-&trans  &trans    &trans    &trans          &trans            &trans    &kp HOME   &prev_word       &kp UP_ARROW    &next_word       &mkp LCLK       &mkp RCLK
+&trans  &kp F6          &kp F7          &kp F8              &kp F9         &kp f10   &kp HOME   &prev_word       &kp UP_ARROW    &next_word       &mkp LCLK       &mkp RCLK
 &trans  &kp LGUI  &kp LALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans    &kp END    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_UP     &kp K_CMENU
 &trans  &trans    &trans    &trans          &trans            &trans    &trans     &prev_word_sel   &kp PAGE_DOWN   &next_word_sel   &kp PAGE_DOWN   &mkp MB5
                             &trans          &trans            &trans    &trans     &trans      &trans
