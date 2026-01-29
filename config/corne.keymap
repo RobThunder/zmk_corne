@@ -220,7 +220,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&lt NUM DEL>, <&num_word 3>;
+            bindings = <&lt 3 DEL>, <&num_word 3>;
         };
     };
 
