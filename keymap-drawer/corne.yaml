@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: Numbers, s: _}
   - {t: RET, h: Symbols}
   - {t: BACKSPACE, h: Navigate}
-  - {t: RIGHT SHIFT, h: sticky}
+  - '&td_num_layer'
   Navigate:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
