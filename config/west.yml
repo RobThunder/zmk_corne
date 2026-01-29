@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/M165437
     - name: urob
       url-base: https://github.com/urob
+    - name: gpeye
+      url-base: https://github.com/GPeye
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -23,5 +25,8 @@ manifest:
     - name: zmk-auto-layer
       remote: urob
       revision: v0.3 # Should match ZMK release.
+    - name: hammerbeam-slideshow
+      remote: gpeye
+      revision: main
   self:
     path: config
