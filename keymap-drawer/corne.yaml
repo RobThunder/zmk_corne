@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - DEL
+  - '-'
   - {t: LSHFT, h: sticky}
   - {t: A, h: LMETA}
   - {t: S, h: LEFT ALT}
@@ -96,9 +96,9 @@ layers:
   - ^
   - '&'
   - '*'
+  - (
   - '-'
   - '='
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
   - <
