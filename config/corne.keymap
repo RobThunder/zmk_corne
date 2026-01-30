@@ -39,9 +39,21 @@
     combos {
         compatible = "zmk,combos";
 
+        num_word {
+            bindings = <&num_word 3>;
+            key-positions = <5 6>;
+            layers = <0>;
+        };
+
         caps_word {
             bindings = <&caps_word>;
             key-positions = <17 18>;
+            layers = <0>;
+        };
+
+        nav_word {
+            bindings = <&nav_word>;
+            key-positions = <29 30>;
             layers = <0>;
         };
 
@@ -60,12 +72,6 @@
         combo_vol_down {
             bindings = <&kp C_VOLUME_DOWN>;
             key-positions = <23 35>;
-            layers = <0>;
-        };
-
-        combo_num_word {
-            bindings = <&num_word 3>;
-            key-positions = <5 6>;
             layers = <0>;
         };
 
@@ -192,7 +198,7 @@
         nav_word: nav_word {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
-            continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
+            continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP HOME END>;
             ignore-modifiers;
         };
 
@@ -229,7 +235,7 @@
 &kp TAB    &kp Q         &kp W            &kp E              &kp R         &kp T        &kp Y      &kp U            &kp I               &kp O             &kp P                 &kp MINUS
 &sk LSHFT  &bhm LMETA A  &bhm LEFT_ALT S  &bhm LEFT_SHIFT D  &bhm LCTRL F  &kp G        &kp H      &bhm RCTRL J     &bhm RIGHT_SHIFT K  &bhm RIGHT_ALT L  &bhm RMETA SEMICOLON  &kp SQT
 &kp LCTRL  &kp Z         &kp X            &kp C              &kp V         &kp B        &kp N      &kp M            &kp COMMA           &kp DOT           &kp FSLH              &kp BACKSLASH
-                                          &kp LCTRL          &lt 4 RET     &underspace  &lt 2 RET  &lt 1 BACKSPACE  &td_num_layer
+                                          &kp LCTRL          &lt 4 RET     &underspace  &lt 2 RET  &lt 1 BACKSPACE  &kp DEL
             >;
         };
 
