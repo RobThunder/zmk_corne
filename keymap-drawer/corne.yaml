@@ -44,7 +44,7 @@ layers:
   - {t: BACKSPACE, h: Navigate}
   - DEL
   Navigate:
-  - {t: ▽, type: trans}
+  - ESC
   - F6
   - F7
   - F8
