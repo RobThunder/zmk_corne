@@ -311,31 +311,9 @@ path.combo {
 </a></g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;td_num_la…</tspan></text>
+<text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<path d="M420,98 l-93,0" class="combo"/>
-<path d="M420,98 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="406" y="85" width="28" height="26" class="combo"/>
-<text x="420" y="98" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
-<text x="112" y="42" class="combo tap">ESCAPE</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="798" y="64" width="28" height="26" class="combo"/>
-<text x="812" y="77" class="combo tap">
-<tspan x="812" dy="-0.6em">VOLUME</tspan><tspan x="812" dy="1.2em">UP</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="798" y="120" width="28" height="26" class="combo"/>
-<text x="812" y="133" class="combo tap">
-<tspan x="812" dy="-0.6em">VOLUME</tspan><tspan x="812" dy="1.2em">DOWN</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
 <path d="M420,42 l-93,0" class="combo"/>
 <path d="M420,42 l93,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="29" width="28" height="26" class="combo"/>
@@ -343,11 +321,39 @@ path.combo {
 <tspan x="420" dy="-0.6em" style="font-size: 78%">&amp;num_word</tspan><tspan x="420" dy="1.2em" style="font-size: 78%">3</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M420,98 l-93,0" class="combo"/>
+<path d="M420,98 l93,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="85" width="28" height="26" class="combo"/>
+<text x="420" y="98" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M420,154 l-93,0" class="combo"/>
+<path d="M420,154 l93,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="141" width="28" height="26" class="combo"/>
+<text x="420" y="154" class="combo tap"><tspan style="font-size: 78%">&amp;nav_word</tspan></text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
+<text x="112" y="42" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="798" y="64" width="28" height="26" class="combo"/>
+<text x="812" y="77" class="combo tap">
+<tspan x="812" dy="-0.6em">VOLUME</tspan><tspan x="812" dy="1.2em">UP</tspan>
+</text>
+</g>
 <g class="combo combopos-5">
+<rect rx="6" ry="6" x="798" y="120" width="28" height="26" class="combo"/>
+<text x="812" y="133" class="combo tap">
+<tspan x="812" dy="-0.6em">VOLUME</tspan><tspan x="812" dy="1.2em">DOWN</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="574" y="50" width="28" height="26" class="combo"/>
 <text x="588" y="63" class="combo tap">&#x27;</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="630" y="43" width="28" height="26" class="combo"/>
 <text x="644" y="56" class="combo tap">@</text>
 </g>

@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: Numbers, s: _}
   - {t: RET, h: Symbols}
   - {t: BACKSPACE, h: Navigate}
-  - '&td_num_layer'
+  - DEL
   Navigate:
   - {t: ▽, type: trans}
   - F6
@@ -216,8 +216,14 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
 combos:
+- p: [5, 6]
+  k: '&num_word 3'
+  l: [Default]
 - p: [17, 18]
   k: '&caps_word'
+  l: [Default]
+- p: [29, 30]
+  k: '&nav_word'
   l: [Default]
 - p: [1, 2]
   k: ESCAPE
@@ -227,9 +233,6 @@ combos:
   l: [Default]
 - p: [23, 35]
   k: VOLUME DOWN
-  l: [Default]
-- p: [5, 6]
-  k: '&num_word 3'
   l: [Default]
 - p: [7, 19]
   k: ''''
