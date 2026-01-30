@@ -223,7 +223,7 @@ combos:
   k: '&caps_word'
   l: [Default]
 - p: [29, 30]
-  k: '&nav_word'
+  k: '&nav_word 1'
   l: [Default]
 - p: [1, 2]
   k: ESCAPE
