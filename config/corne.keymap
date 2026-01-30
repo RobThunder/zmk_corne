@@ -52,7 +52,7 @@
         };
 
         nav_word {
-            bindings = <&nav_word>;
+            bindings = <&nav_word 1>;
             key-positions = <29 30>;
             layers = <0>;
         };
