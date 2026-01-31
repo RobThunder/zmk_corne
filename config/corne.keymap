@@ -19,7 +19,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors/num_word.dtsi> // requires https://github.com/urob/zmk-auto-layer module
 #include <dt-bindings/zmk/mouse.h>
-#include <../includes/combos.dtsi>
+#include <combos.dtsi>
 
 &sk {
     release-after-ms = <1000>;
