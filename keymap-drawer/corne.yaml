@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - \
-  - LCTRL
+  - {t: Symbols, h: LCTRL}
   - {t: RET, h: Utility}
   - {t: SPACE, h: Numbers, s: _}
   - {t: RET, h: Symbols}
@@ -123,10 +123,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Numbers:
