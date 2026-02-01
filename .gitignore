@@ -1,3 +1,19 @@
+# Build artifacts
+build/
+artifacts/
 
-.zmk/
-.artifacts/
+# ZMK
+zephyr/
+!zephyr/module.yml
+
+# West managed directories
+.west/
+modules/
+tools/
+
+# West projects from config/west.yml
+zmk/
+nice-view-gem/
+zmk-helpers/
+zmk-auto-layer/
+hammerbeam-slideshow/
