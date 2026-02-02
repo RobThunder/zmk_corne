@@ -196,19 +196,19 @@
         nav_layer {
             display-name = "Navigate";
             bindings = <
-&kp ESC  &kp F6          &kp F7          &kp F8              &kp F9         &kp F10   &kp HOME   &prev_word       &kp UP_ARROW    &next_word       &kp PAGE_UP     &trans
-&trans   &bhm LMETA F1   &bhm LALT F2    &bhm LEFT_SHIFT F3  &bhm LCTRL F4  &kp F5    &kp END    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN   &kp K_CMENU
-&trans   &kp F11         &kp F12         &kp F13             &kp F14        &kp F15   &trans     &prev_word_sel   &kp PAGE_DOWN   &next_word_sel   &mkp MB1        &mkp MB2
-                                         &trans       &trans         &trans    &trans     &trans           &trans
+&trans   &trans      &trans      &trans          &trans     &trans    &kp HOME   &prev_word       &kp UP_ARROW    &next_word       &kp PAGE_UP     &kp INS
+&trans   &kp LMETA   &kp LALT    &kp LEFT_SHIFT  &kp LCTRL  &trans    &kp END    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN   &kp K_CMENU
+&trans   &trans      &trans      &trans          &trans     &trans    &trans     &prev_word_sel   &kp PAGE_DOWN   &next_word_sel   &mkp MB1        &mkp MB2
+                                 &trans          &trans     &trans    &trans     &trans           &trans
             >;
         };
 
         symb_layer {
             display-name = "Symbols";
             bindings = <
-&kp GRAVE  &kp EXCLAMATION   &kp AT_SIGN    &kp HASH             &kp DOLLAR      &kp PERCENT   &kp CARET   &kp AMPERSAND   &kp ASTERISK    &kp LEFT_PARENTHESIS   &kp MINUS   &kp EQUAL
-&trans     &bhm LMETA F1     &bhm LALT F2   &bhm LEFT_SHIFT F3   &bhm LCTRL F4   &kp F5        &kp F6      &kp F7          &kp F8          &kp F9                 &kp F10     &trans
-&trans     &trans            &trans         &trans               &trans          &trans        &trans      &trans          &trans          &trans                 &trans      &trans
+&kp GRAVE  &kp EXCLAMATION   &kp AT_SIGN    &kp HASH             &kp DOLLAR      &kp PERCENT   &kp CARET   &kp AMPERSAND   &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp MINUS   &kp EQUAL
+&trans     &bhm LMETA F1     &bhm LALT F2   &bhm LEFT_SHIFT F3   &bhm LCTRL F4   &kp F5        &kp F6      &bhm LCTRL F7   &bhm LEFT_SHIFT F8    &bhm LALT F9           &kp F10     &trans
+&trans     &kp F11           &kp F12        &kp F13              &kp F14         &kp F15       &trans      &trans          &trans                &trans                 &trans      &trans
                                             &trans               &trans          &trans        &trans      &trans          &trans
             >;
         };
@@ -219,7 +219,7 @@
 &kp ESC  &kp N1       &kp N2                    &kp N3                        &kp N4                       &kp N5                 &kp N6       &kp N7         &kp N8                &kp N9              &kp N0      &kp MINUS 
 &trans   &kp DOLLAR   &bhm LEFT_ALT LESS_THAN   &bhm LEFT_SHIFT GREATER_THAN  &bhm LCTRL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COMMA    &bhm RCTRL N4  &bhm RIGHT_SHIFT N5   &bhm RIGHT_ALT N6   &kp PLUS    &kp ASTERISK
 &trans   &kp F16      &kp F17                   &kp F18                       &kp F19                      &kp F20                &kp PERIOD   &kp N1         &kp N2                &kp N3              &kp SLASH   &kp EQUAL
-                                             &trans                        &trans                       &trans                 &trans       &trans         &kp N0
+                                                &trans                        &trans                       &trans                 &trans       &trans         &kp N0
             >;
         };
 
