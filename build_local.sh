@@ -33,7 +33,7 @@ ENV="-e CMAKE_PREFIX_PATH=/zmk/zephyr:${CMAKE_PREFIX_PATH:-}"
 # the same global safe.directory entries we configure on the host.
 COMMAND="$RUNTIME run --rm --workdir /zmk -v $(pwd):/zmk -v /tmp:/temp -v $HOME/.gitconfig:/root/.gitconfig:ro $ENV $IMG"
 BUILD_CONFIG="${BUILD_CONFIG:-build.yaml}"
-INCREMENTAL="${INCREMENTAL:-false}" # Set to true to skip -p (pristine) flag for faster incremental builds
+INCREMENTAL="${INCREMENTAL:-true}" # Set to true to skip -p (pristine) flag for faster incremental builds
 
 log_info() {
   echo -e "\033[1;34m[INFO]\033[0m $1"
