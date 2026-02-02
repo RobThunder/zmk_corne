@@ -97,8 +97,8 @@ layers:
   - '&'
   - '*'
   - (
+  - )
   - '-'
-  - '='
   - {t: ▽, type: trans}
   - {t: F1, h: LMETA}
   - {t: F2, h: LALT}
@@ -106,11 +106,11 @@ layers:
   - {t: F4, h: LCTRL}
   - F5
   - F6
-  - {t: F7, h: LCTRL}
-  - {t: F8, h: LEFT SHIFT}
-  - {t: F9, h: LALT}
-  - F10
-  - {t: ▽, type: trans}
+  - {t: F7, h: RCTRL}
+  - {t: F8, h: RIGHT SHIFT}
+  - {t: F9, h: RALT}
+  - {t: F10, h: RMETA}
+  - '='
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -143,7 +143,7 @@ layers:
   - '0'
   - '-'
   - {t: ▽, type: trans}
-  - $
+  - {t: $, h: LMETA}
   - {t: <, h: LEFT ALT}
   - {t: '>', h: LEFT SHIFT}
   - {t: (, h: LCTRL}
@@ -152,7 +152,7 @@ layers:
   - {t: '4', h: RCTRL}
   - {t: '5', h: RIGHT SHIFT}
   - {t: '6', h: RIGHT ALT}
-  - +
+  - {t: +, h: RMETA}
   - '*'
   - {t: ▽, type: trans}
   - F16
