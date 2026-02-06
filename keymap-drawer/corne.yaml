@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '-'
-  - {t: LSHFT, h: sticky}
+  - LSHFT
   - {t: A, h: LMETA}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - \
-  - '&key_repeat'
+  - DEL
   - {t: RET, h: Utility}
   - {t: SPACE, h: Numbers, s: _}
   - {t: RET, h: Symbols}
@@ -216,8 +216,11 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
 combos:
-- p: [1, 2]
+- p: [0, 1]
   k: ESCAPE
+  l: [Default]
+- p: [0, 12]
+  k: '`'
   l: [Default]
 - p: [1, 13]
   k: '!'
