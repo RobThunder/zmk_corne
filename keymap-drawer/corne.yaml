@@ -216,7 +216,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
 combos:
-- p: [0, 1]
+- p: [1, 2]
   k: ESCAPE
   l: [Default]
 - p: [0, 12]
@@ -270,9 +270,18 @@ combos:
 - p: [9, 21]
   k: '='
   l: [Default]
+- p: [10, 22]
+  k: +
+  l: [Default]
 - p: [19, 31]
   k: '['
   l: [Default]
 - p: [20, 32]
   k: ']'
+  l: [Default]
+- p: [21, 33]
+  k: <
+  l: [Default]
+- p: [22, 34]
+  k: '>'
   l: [Default]
