@@ -243,11 +243,11 @@ combos:
 - p: [15, 27]
   k: '}'
   l: [Default]
-- p: [16, 28]
-  k: (
+- p: [26, 27]
+  k: Ctl+C
   l: [Default]
-- p: [17, 29]
-  k: )
+- p: [27, 28]
+  k: Ctl+V
   l: [Default]
 - p: [5, 6]
   k: '&num_word 3'
@@ -272,6 +272,12 @@ combos:
   l: [Default]
 - p: [10, 22]
   k: +
+  l: [Default]
+- p: [19, 20]
+  k: (
+  l: [Default]
+- p: [20, 21]
+  k: )
   l: [Default]
 - p: [19, 31]
   k: '['
