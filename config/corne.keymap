@@ -128,7 +128,7 @@
 &kp TAB    &kp Q         &kp W            &kp E              &kp R         &kp T        &kp Y      &kp U            &kp I               &kp O             &kp P                 &kp MINUS
 &kp LSHFT  &hml LMETA A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &kp G        &kp H      &hmr RCTRL J     &hmr RIGHT_SHIFT K  &hmr RIGHT_ALT L  &hmr RMETA SEMICOLON  &kp SQT
 &kp LCTRL  &kp Z         &kp X            &kp C              &kp V         &kp B        &kp N      &kp M            &kp COMMA           &kp DOT           &kp FSLH              &kp BACKSLASH
-                                          &kp DEL            &lt 4 RET     &underspace  &lt 2 RET  &lt 1 BACKSPACE  &kp DEL
+                                          &mt LALT DEL       &lt 4 RET     &underspace  &lt 2 RET  &lt 1 BACKSPACE  &kp DEL
             >;
         };
 
@@ -138,7 +138,7 @@
 &trans   &trans      &trans      &trans          &trans     &trans    &kp HOME   &prev_word       &kp UP_ARROW    &next_word       &kp PAGE_UP     &kp INS
 &trans   &kp LMETA   &kp LALT    &kp LEFT_SHIFT  &kp LCTRL  &trans    &kp END    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN   &kp K_CMENU
 &trans   &trans      &trans      &trans          &trans     &trans    &trans     &prev_word_sel   &kp PAGE_DOWN   &next_word_sel   &mkp MB1        &mkp MB2
-                                 &trans          &trans     &trans    &trans     &trans           &trans
+                                 &nav_word 1     &trans     &trans    &trans     &trans           &trans
             >;
         };
 
@@ -146,8 +146,8 @@
             display-name = "Symbols";
             bindings = <
 &kp GRAVE  &kp EXCLAMATION   &kp AT_SIGN    &kp HASH             &kp DOLLAR      &kp PERCENT   &kp CARET   &kp AMPERSAND   &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp MINUS
-&trans     &bhm LMETA F1     &bhm LALT F2   &bhm LEFT_SHIFT F3   &bhm LCTRL F4   &kp F5        &kp F6      &bhm RCTRL F7   &bhm RIGHT_SHIFT F8   &bhm RALT F9           &bhm RMETA F10          &kp EQUAL
-&trans     &kp F11           &kp F12        &kp F13              &kp F14         &kp F15       &trans      &trans          &trans                &trans                 &trans                  &trans
+&trans     &bhm LMETA F1     &bhm LALT F2   &bhm LEFT_SHIFT F3   &bhm LCTRL F4   &kp F5        &kp F6      &bhm RCTRL F7   &bhm RIGHT_SHIFT F8   &bhm RALT F9           &bhm RMETA F10          &trans
+&trans     &kp F11           &kp F12        &kp F13              &kp F14         &kp F15       &trans      &trans          &trans                &trans                 &trans                  &kp EQUAL
                                             &trans               &trans          &trans        &trans      &trans          &trans
             >;
         };
@@ -155,10 +155,10 @@
         num_layer {
             display-name = "Numbers";
             bindings = <
-&kp ESC  &kp N1              &kp N2                    &kp N3                        &kp N4                       &kp N5                 &kp N6       &kp N7         &kp N8                &kp N9              &kp N0            &kp MINUS 
-&trans   &bhm LMETA DOLLAR   &bhm LEFT_ALT LESS_THAN   &bhm LEFT_SHIFT GREATER_THAN  &bhm LCTRL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COMMA    &bhm RCTRL N4  &bhm RIGHT_SHIFT N5   &bhm RIGHT_ALT N6   &bhm RMETA PLUS   &kp ASTERISK
-&trans   &kp F16             &kp F17                   &kp F18                       &kp F19                      &kp F20                &kp PERIOD   &kp N1         &kp N2                &kp N3              &kp SLASH         &kp EQUAL
-                                                       &trans                        &trans                       &trans                 &trans       &trans         &kp N0
+&kp ESC     &kp N1              &kp N2                    &kp N3                        &kp N4                       &kp N5                 &kp N6       &kp N7         &kp N8                &kp N9              &kp N0            &kp MINUS 
+&kp COLON   &bhm LMETA DOLLAR   &bhm LEFT_ALT LESS_THAN   &bhm LEFT_SHIFT GREATER_THAN  &bhm LCTRL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COMMA    &bhm RCTRL N4  &bhm RIGHT_SHIFT N5   &bhm RIGHT_ALT N6   &bhm RMETA PLUS   &kp ASTERISK
+&trans      &kp F16             &kp F17                   &kp F18                       &kp F19                      &kp F20                &kp PERIOD   &kp N1         &kp N2                &kp N3              &kp SLASH         &kp EQUAL
+                                                          &trans                        &trans                       &trans                 &trans       &trans         &num_word 3
             >;
         };
 
