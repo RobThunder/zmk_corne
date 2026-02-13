@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - \
-  - DEL
+  - {t: DEL, h: LALT}
   - {t: RET, h: Utility}
   - {t: SPACE, h: Numbers, s: _}
   - {t: RET, h: Symbols}
@@ -80,7 +80,7 @@ layers:
   - '&next_word_sel'
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - '&nav_word 1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -110,7 +110,7 @@ layers:
   - {t: F8, h: RIGHT SHIFT}
   - {t: F9, h: RALT}
   - {t: F10, h: RMETA}
-  - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -142,7 +142,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - {t: ▽, type: trans}
+  - ':'
   - {t: $, h: LMETA}
   - {t: <, h: LEFT ALT}
   - {t: '>', h: LEFT SHIFT}
@@ -171,7 +171,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - '&num_word 3'
   Utility:
   - '&bootloader'
   - ''
@@ -243,6 +243,15 @@ combos:
 - p: [15, 27]
   k: '}'
   l: [Default]
+- p: [16, 28]
+  k: (
+  l: [Default]
+- p: [17, 29]
+  k: )
+  l: [Default]
+- p: [16, 17]
+  k: '='
+  l: [Default]
 - p: [26, 27]
   k: Ctl+C
   l: [Default]
@@ -267,17 +276,8 @@ combos:
 - p: [8, 20]
   k: '*'
   l: [Default]
-- p: [9, 21]
-  k: '='
-  l: [Default]
-- p: [10, 22]
+- p: [18, 19]
   k: +
-  l: [Default]
-- p: [19, 20]
-  k: (
-  l: [Default]
-- p: [20, 21]
-  k: )
   l: [Default]
 - p: [19, 31]
   k: '['
