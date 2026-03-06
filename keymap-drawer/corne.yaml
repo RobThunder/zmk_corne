@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - \
-  - {t: DEL, h: LALT}
+  - {t: DEL, h: Alt+LCTRL}
   - {t: RET, h: Utility}
   - {t: SPACE, h: Numbers, s: _}
   - {t: RET, h: Symbols}
   - {t: BACKSPACE, h: Navigate}
-  - DEL
+  - '&cat'
   Navigate:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
