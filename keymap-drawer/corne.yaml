@@ -118,7 +118,7 @@ layers:
   - F14
   - F15
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -195,8 +195,8 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&mmv MOVE_RIGHT'
   - ''
+  - CMENU
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
