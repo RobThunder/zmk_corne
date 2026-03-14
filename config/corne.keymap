@@ -158,10 +158,10 @@
         symb_layer {
             display-name = "Symbols";
             bindings = <
-&kp GRAVE  &kp EXCLAMATION   &kp AT_SIGN    &kp HASH             &kp DOLLAR      &kp PERCENT   &kp CARET   &kp AMPERSAND   &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp MINUS
-&trans     &bhm LMETA F1     &bhm LALT F2   &bhm LEFT_SHIFT F3   &bhm LCTRL F4   &kp F5        &kp F6      &bhm RCTRL F7   &bhm RIGHT_SHIFT F8   &bhm RALT F9           &bhm RMETA F10          &trans
-&trans     &kp F11           &kp F12        &kp F13              &kp F14         &kp F15       &trans      &trans          &trans                &trans                 &trans                  &kp EQUAL
-                                            &trans               &trans          &trans        &trans      &trans          &trans
+&kp GRAVE  &kp EXCLAMATION   &kp AT_SIGN    &kp HASH             &kp DOLLAR      &kp PERCENT   &kp CARET   &kp AMPERSAND     &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp MINUS
+&trans     &bhm LMETA F1     &bhm LALT F2   &bhm LEFT_SHIFT F3   &bhm LCTRL F4   &kp F5        &kp F6      &bhm RCTRL F7     &bhm RIGHT_SHIFT F8   &bhm RALT F9           &bhm RMETA F10          &trans
+&trans     &kp F11           &kp F12        &kp F13              &kp F14         &kp F15       &trans      &kp PRINTSCREEN   &trans                &trans                 &trans                  &kp EQUAL
+                                            &trans               &trans          &trans        &trans      &trans            &trans
             >;
         };
 
@@ -178,9 +178,9 @@
         kb_utils {
             display-name = "Utility";
             bindings = <
-&bootloader  &none           &none         &none             &none         &none           &msc SCRL_UP    &none           &mmv MOVE_UP    &none            &none            &studio_unlock
-&none        &kp C_PREVIOUS  &kp C_MUTE    &kp C_PLAY_PAUSE  &kp C_NEXT    &none           &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &none
-&bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &none           &mkp MB4        &mkp MB5        &none            &none            &none
+&bootloader  &none           &none         &none             &none         &none           &msc SCRL_UP    &none           &mmv MOVE_UP    &none            &none   &studio_unlock
+&none        &kp C_PREVIOUS  &kp C_MUTE    &kp C_PLAY_PAUSE  &kp C_NEXT    &none           &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &kp K_CMENU
+&bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &none           &mkp MB4        &mkp MB5        &none            &none   &none
                                            &none             &none         &none           &mkp MB1        &mkp MB2        &mkp MB3
             >;
         };
