@@ -167,10 +167,10 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&trans       &trans          &trans        &trans            &trans      &trans    &msc SCRL_UP     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT   &trans   &studio_unlock
-&trans       &kp LMETA       &kp LEFT_ALT  &kp LEFT_SHIFT    &kp LCTRL   &trans    &msc SCRL_DOWN   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &trans   &kp K_CMENU
-&trans       &trans          &trans        &trans            &trans      &trans    &trans           &mkp MB4        &mkp MB5        &trans            &trans   &trans
-                                           &trans            &trans      &trans    &mkp MB1         &mkp MB2        &mkp MB3
+&trans       &trans          &trans    &trans    &trans      &trans    &msc SCRL_UP     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT   &trans   &trans
+&trans       &trans          &trans    &trans    &trans      &trans    &msc SCRL_DOWN   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &trans   &kp K_CMENU
+&trans       &trans          &trans    &trans    &trans      &trans    &trans           &mkp MB4        &mkp MB5        &trans            &trans   &trans
+                                       &trans    &trans      &trans    &mkp MB1         &mkp MB2        &mkp MB3
             >;
         };
 
