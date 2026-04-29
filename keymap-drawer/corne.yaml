@@ -38,7 +38,7 @@ layers:
   - /
   - \
   - {t: DEL, h: Alt+LCTRL}
-  - {t: RET, h: Utility}
+  - {t: RET, h: Mouse}
   - {t: SPACE, h: Numbers, s: _}
   - {t: RET, h: Symbols}
   - {t: BACKSPACE, h: Navigate}
@@ -80,7 +80,7 @@ layers:
   - '&next_word_sel'
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&nav_word 1'
+  - {t: Navigate, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,13 +172,56 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&num_word 3'
+  Mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - CMENU
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   Utility:
   - '&bootloader'
   - ''
+  - VOL DN
+  - VOL UP
   - ''
-  - ''
-  - ''
-  - ''
+  - '&studio_unlock'
   - '&msc SCRL_UP'
   - ''
   - '&mmv MOVE_UP'
@@ -210,7 +253,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - '&mkp MB1'
   - '&mkp MB2'
@@ -237,20 +280,20 @@ combos:
 - p: [5, 17]
   k: '%'
   l: [Default]
+- p: [16, 17]
+  k: '='
+  l: [Default]
 - p: [14, 26]
   k: '{'
   l: [Default]
 - p: [15, 27]
-  k: '}'
+  k: '['
   l: [Default]
 - p: [16, 28]
   k: (
   l: [Default]
 - p: [17, 29]
-  k: )
-  l: [Default]
-- p: [16, 17]
-  k: '='
+  k: '>'
   l: [Default]
 - p: [26, 27]
   k: Ctl+C
@@ -279,15 +322,15 @@ combos:
 - p: [18, 19]
   k: +
   l: [Default]
+- p: [18, 30]
+  k: <
+  l: [Default]
 - p: [19, 31]
-  k: '['
+  k: )
   l: [Default]
 - p: [20, 32]
   k: ']'
   l: [Default]
 - p: [21, 33]
-  k: <
-  l: [Default]
-- p: [22, 34]
-  k: '>'
+  k: '}'
   l: [Default]
