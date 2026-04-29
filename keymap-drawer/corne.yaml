@@ -293,7 +293,7 @@ combos:
   k: (
   l: [Default]
 - p: [17, 29]
-  k: '>'
+  k: <
   l: [Default]
 - p: [26, 27]
   k: Ctl+C
@@ -323,7 +323,7 @@ combos:
   k: +
   l: [Default]
 - p: [18, 30]
-  k: <
+  k: '>'
   l: [Default]
 - p: [19, 31]
   k: )
