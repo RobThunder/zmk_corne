@@ -74,7 +74,7 @@
             compatible = "zmk,behavior-mod-morph";
             bindings = <&lt 3 SPACE>, <&sl 1>;
             #binding-cells = <0>;
-            mods = <(MOD_SFT|MOD_LSFT)>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
         };
 
         nav_word: nav_word {
