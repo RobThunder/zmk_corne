@@ -72,7 +72,7 @@
 
         spacemod: spacemod {
             compatible = "zmk,behavior-mod-morph";
-            bindings = <&lt 3 SPACE>, <&sl 1>;
+            bindings = <&lt 3 SPACE>, <&sl 2>;
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
@@ -157,10 +157,10 @@
         num_layer {
             display-name = "Numbers";
             bindings = <
-&kp ESC     &kp N1              &kp N2                    &kp N3                        &kp N4                       &kp N5                 &kp N6       &kp N7         &kp N8                &kp N9              &kp N0            &kp MINUS 
-&kp COLON   &bhm LMETA DOLLAR   &bhm LEFT_ALT LESS_THAN   &bhm LEFT_SHIFT GREATER_THAN  &bhm LCTRL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COMMA    &bhm RCTRL N4  &bhm RIGHT_SHIFT N5   &bhm RIGHT_ALT N6   &bhm RMETA PLUS   &kp ASTERISK
-&trans      &kp F16             &kp F17                   &kp F18                       &kp F19                      &kp F20                &kp PERIOD   &kp N1         &kp N2                &kp N3              &kp SLASH         &kp EQUAL
-                                                          &trans                        &trans                       &trans                 &trans       &trans         &num_word 3
+&kp ESC     &kp N1           &kp N2             &kp N3               &kp N4          &kp N5    &kp N6       &kp N7         &kp N8                &kp N9              &kp N0            &kp MINUS 
+&kp COLON   &bhm LMETA N6    &bhm LEFT_ALT N7   &bhm LEFT_SHIFT N8   &bhm LCTRL N9   &kp N0    &kp COMMA    &bhm RCTRL N4  &bhm RIGHT_SHIFT N5   &bhm RIGHT_ALT N6   &bhm RMETA PLUS   &kp ASTERISK
+&trans      &kp F16          &kp F17            &kp F18              &kp F19         &kp F20   &kp PERIOD   &kp N1         &kp N2                &kp N3              &kp SLASH         &kp EQUAL
+                                                &trans               &trans          &trans    &trans       &trans         &num_word 3
             >;
         };
 
