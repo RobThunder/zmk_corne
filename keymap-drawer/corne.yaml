@@ -39,7 +39,7 @@ layers:
   - \
   - {t: DEL, h: Alt+LCTRL}
   - {t: RET, h: Mouse}
-  - {t: SPACE, h: Numbers, s: _}
+  - {t: SPACE, h: Numbers, s: Navigate}
   - {t: RET, h: Symbols}
   - {t: BACKSPACE, h: Navigate}
   - '&cat'
@@ -82,9 +82,9 @@ layers:
   - '&mkp MB2'
   - {t: Navigate, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbols:
   - '`'
